@@ -1,0 +1,2 @@
+[Thread 20] Port 22 OPEN (SSH)
+[Thread 79] Port 80 OPEN (HTTP)
