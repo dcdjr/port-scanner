@@ -36,21 +36,6 @@ gcc port_scanner.c -o port_scanner.exe -lws2_32 -lpthread
 
 ---
 
-## Build Instructions (Windows)
-
-Requires:
-- MinGW-w64 or MSYS2  
-- pthreads for Windows  
-- Winsock2 libraries
-
-Compile:
-
-```bash
-gcc port_scanner.c -o port_scanner.exe -lws2_32 -lpthread
-```
-
----
-
 ## Usage
 
 ```c
@@ -134,4 +119,5 @@ port_scanner.c      # Main source code
 scan_results.txt    # Output generated from scans
 README.md           # Documentation (this file)
 ```
+
 
